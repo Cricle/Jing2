@@ -1,0 +1,18 @@
+﻿<Window x:Class="Jing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Jing"
+        xmlns:ski="clr-namespace:SkiaSharp.Views.WPF;assembly=SkiaSharp.Views.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Background="Transparent"
+        KeyDown="Window_KeyDown"
+        MouseDown="Window_MouseDown">
+    <ski:SKElement x:Name="Ske"
+                       Loaded="Ske_Loaded"
+                       PaintSurface="Ske_PaintSurface">
+
+    </ski:SKElement>
+</Window>
